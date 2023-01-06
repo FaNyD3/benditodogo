@@ -24,6 +24,17 @@ function App() {
           />
         </Grid>
       </Grid>
+      <Grid container>
+        <Grid item xs={12} className={classes.header}>
+          <h1>LOS WAFFLES</h1>
+        </Grid>
+        <Grid item xs={12} className={classes.header}>
+          <h2>WAFFLE 1</h2>
+        </Grid>
+        <Grid item xs={12} className={classes.header}>
+          <h2>WAFFLE 2</h2>
+        </Grid>
+      </Grid>
     </>
   );
 }
