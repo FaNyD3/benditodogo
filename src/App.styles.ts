@@ -1,5 +1,5 @@
 import { Theme } from "@mui/material/styles";
-import { makeStyles } from "@mui/styles";
+import { makeStyles } from "@material-ui/core/styles";
 
 // .header {
 //   display: flex;
@@ -13,31 +13,37 @@ import { makeStyles } from "@mui/styles";
 
 const useStyles = makeStyles((theme: Theme) => ({
   root: {
-    boxSizing: 'border-box',
+    boxSizing: "border-box",
   },
   headerContainer: {
-    background: 'linear-gradient(to right top, #38438b, #944b94, #d75a88, #ff7e71, #ffb25f, #ffeb68);',
+    background:
+      "linear-gradient(to right top, #38438b, #944b94, #d75a88, #ff7e71, #ffb25f, #ffeb68);",
+    width: "100vw",
+    height: "100vh",
+    [theme.breakpoints.down("sm")]: {
+      height: "65vh",
+    },
   },
   header: {
-    height: '10vh',
+    height: "10vh",
     display: "flex",
     justifyContent: "center",
-    paddingTop: '10px'
-    
+    paddingTop: "10px",
   },
   img: {
-    height: "100px",
+    height: "7vh",
   },
   mainImageContainer: {
-    width: "100vw",
-    height: "75vh",
     display: "flex",
     justifyContent: "center",
-    paddingTop: '100px',
+    paddingTop: "6%",
   },
   headerImage: {
-    height: "400px",
-  }
+    height: "30vh",
+    [theme.breakpoints.down("sm")]: {
+      height: "25vh",
+    },
+  },
 }));
 
 export default useStyles;
