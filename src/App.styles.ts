@@ -30,6 +30,12 @@ const useStyles = makeStyles((theme: Theme) => ({
     justifyContent: "center",
     paddingTop: "10px",
   },
+  menuHeader: {
+    display: "flex",
+    justifyContent: "center",
+    paddingTop: "10px",
+    paddingBottom: "20px",
+  },
   img: {
     height: "7vh",
   },
@@ -43,6 +49,18 @@ const useStyles = makeStyles((theme: Theme) => ({
     [theme.breakpoints.down("sm")]: {
       height: "25vh",
     },
+  },
+  title: {
+    fontSize: "68px",
+    marginTop: "0",
+    marginBottom: "0",
+  },
+  platillo: {
+    marginBottom: "10px",
+    marginTop: "10px",
+  },
+  description: {
+    fontFamily: "serif",
   },
 }));
 

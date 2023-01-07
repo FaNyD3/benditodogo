@@ -25,11 +25,14 @@ function App() {
         </Grid>
       </Grid>
       <Grid container>
-        <Grid item xs={12} className={classes.header}>
-          <h1>LOS WAFFLES</h1>
+        <Grid item xs={12} className={classes.menuHeader}>
+          <h1 className={classes.title}>DOGOS</h1>
         </Grid>
-        <Grid item xs={12} className={classes.header}>
-          <h2>WAFFLE 1</h2>
+        <Grid item xs={12}>
+          <h2 className={classes.platillo}> CARNIVORO </h2>
+        </Grid>
+        <Grid item xs={12}>
+          <p className={classes.description}>El emblema de la casa. El waffle más emblemático de Bélgica, crujiente por fuera, super suave por dentro y con un característico toque dulce</p>
         </Grid>
         <Grid item xs={12} className={classes.header}>
           <h2>WAFFLE 2</h2>
