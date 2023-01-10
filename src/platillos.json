@@ -5,7 +5,7 @@
       "platillos": [
         {
           "name": "Test 1",
-          "imgSrc": "test-image.jpeg.jpeg",
+          "imgSrc": "test-image.jpeg",
           "description": "Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo"
         },
         {

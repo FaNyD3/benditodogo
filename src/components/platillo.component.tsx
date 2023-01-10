@@ -29,7 +29,7 @@ export default function Platillo({
         <Grid item xs={5}>
           <img
             className={classes.PlatilloImage}
-            src={`../assets/test-image.jpeg`}
+            src={require(`../assets/${imgSrc}`)}
             alt={`${section || "platillo"} ${name}`}
           />
         </Grid>
@@ -39,14 +39,21 @@ export default function Platillo({
           <h2 className={classes.platilloTitle}> {name} </h2>
         </Grid>
         <Grid item xs={12}>
-          <p className={classes.descriptionRight}>{description}</p>
+          <p
+            className={
+              descriptionPosition == PlatilloPosition.right
+                ? classes.descriptionLeft
+                : classes.descriptionRight
+            }>
+            {`${descriptionPosition}-${description}`}
+          </p>
         </Grid>
       </Grid>
       {descriptionPosition === PlatilloPosition.right && (
         <Grid item xs={5}>
           <img
             className={classes.PlatilloImage}
-            src={imgSrc}
+            src={require(`../assets/${imgSrc}`)}
             alt={`${section || "platillo"} ${name}`}
           />
         </Grid>
