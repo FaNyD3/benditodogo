@@ -1,0 +1,114 @@
+{
+  "sections": [
+    {
+      "name": "dogos",
+      "platillos": [
+        {
+          "name": "Test 1",
+          "imgSrc": "test-image.jpeg.jpeg",
+          "description": "Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo"
+        },
+        {
+          "name": "Test 2",
+          "imgSrc": "test-image.jpeg",
+          "description": "Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo"
+        },
+        {
+          "name": "Test 3",
+          "imgSrc": "test-image.jpeg",
+          "description": "Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo"
+        },
+        {
+          "name": "Test 4",
+          "imgSrc": "test-image.jpeg",
+          "description": "Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo"
+        },
+        {
+          "name": "Test 5",
+          "imgSrc": "test-image.jpeg",
+          "description": "Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo"
+        },
+        {
+          "name": "Test 6",
+          "imgSrc": "test-image.jpeg",
+          "description": "Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo"
+        },
+        {
+          "name": "Test 7",
+          "imgSrc": "test-image.jpeg",
+          "description": "Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo"
+        },
+        {
+          "name": "Test 8",
+          "imgSrc": "test-image.jpeg",
+          "description": "Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo"
+        },
+        {
+          "name": "Test 9",
+          "imgSrc": "test-image.jpeg",
+          "description": "Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo"
+        },
+        {
+          "name": "Test 10",
+          "imgSrc": "test-image.jpeg",
+          "description": "Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo"
+        }
+      ]
+    },
+    {
+      "name": "Hamburguesa",
+      "platillos": [
+        {
+          "name": "Test 1",
+          "imgSrc": "test-image.jpeg",
+          "description": "Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo"
+        },
+        {
+          "name": "Test 2",
+          "imgSrc": "test-image.jpeg",
+          "description": "Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo"
+        },
+        {
+          "name": "Test 3",
+          "imgSrc": "test-image.jpeg",
+          "description": "Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo"
+        },
+        {
+          "name": "Test 4",
+          "imgSrc": "test-image.jpeg",
+          "description": "Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo"
+        },
+        {
+          "name": "Test 5",
+          "imgSrc": "test-image.jpeg",
+          "description": "Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo"
+        },
+        {
+          "name": "Test 6",
+          "imgSrc": "test-image.jpeg",
+          "description": "Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo"
+        },
+        {
+          "name": "Test 7",
+          "imgSrc": "test-image.jpeg",
+          "description": "Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo"
+        },
+        {
+          "name": "Test 8",
+          "imgSrc": "test-image.jpeg",
+          "description": "Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo"
+        },
+        {
+          "name": "Test 9",
+          "imgSrc": "test-image.jpeg",
+          "description": "Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo"
+        },
+        {
+          "name": "Test 10",
+          "imgSrc": "test-image.jpeg",
+          "description": "Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo"
+        }
+      ]
+    }
+  ]
+}
