@@ -1,19 +1,12 @@
 import { Theme } from "@mui/material/styles";
 import { makeStyles } from "@material-ui/core/styles";
 
-// .header {
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-// }
-
-// .header img {
-//   height: 100px;
-// }
-
 const useStyles = makeStyles((theme: Theme) => ({
   root: {
     boxSizing: "border-box",
+  },
+  spacer: {
+    height: "50px",
   },
   headerContainer: {
     background:
@@ -55,12 +48,8 @@ const useStyles = makeStyles((theme: Theme) => ({
     marginTop: "0",
     marginBottom: "0",
   },
-  platillo: {
-    marginBottom: "10px",
-    marginTop: "10px",
-  },
-  description: {
-    fontFamily: "serif",
+  menuContainer: {
+    padding: "10px",
   },
 }));
 
