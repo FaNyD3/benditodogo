@@ -26,21 +26,27 @@ function App() {
         </Grid>
       </Grid>
       <Grid container className={classes.menuContainer}>
-        <Grid item xs={12} className={classes.menuHeader}>
-          <h1 className={classes.title}>DOGOS</h1>
-        </Grid>
         <Grid container>
-          {menuData.sections.map((section) =>
-            section.platillos.map((platillo) => (
-              <Platillo
-                section={section.name}
-                name={platillo.name}
-                imgSrc={platillo.imgSrc}
-                description={platillo.description}
-                descriptionPosition={PlatilloPosition.left}
-              />
-            ))
-          )}
+          {menuData.sections.map((section) => (
+            <>
+              <Grid item xs={12} className={classes.menuHeader}>
+                <h1 className={classes.title}>{section.name}</h1>
+              </Grid>
+              {section.platillos.map((platillo, index) => (
+                <Platillo
+                  section={section.name}
+                  name={platillo.name}
+                  imgSrc={platillo.imgSrc}
+                  description={platillo.description}
+                  descriptionPosition={
+                    (index + 1) % 2 == 0
+                      ? PlatilloPosition.right
+                      : PlatilloPosition.left
+                  }
+                />
+              ))}
+            </>
+          ))}
           {/* <Grid item xs={12} className={classes.spacer}></Grid>
           <Grid item xs={7}>
             <Grid item xs={12} className={classes.platilloTitleContainer}>
