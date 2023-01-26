@@ -4,19 +4,19 @@
       "name": "dogos",
       "platillos": [
         {
-          "name": "Test 1",
-          "imgSrc": "test-image.jpeg",
-          "description": "Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo"
+          "name": "Carnivoro",
+          "imgSrc": "hotdogs/carnivoro.jpeg",
+          "description": "100gr. de salchicha, costra de queso mozzarella, salami, pepperoni, chorizo y tocino."
         },
         {
-          "name": "Test 2",
-          "imgSrc": "test-image.jpeg",
-          "description": "Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo"
+          "name": "Kansas",
+          "imgSrc": "hotdogs/kansas.jpeg",
+          "description": "100gr. salchicha, costra de queso, elote amarillo, cebolla guisada y champiñones."
         },
         {
-          "name": "Test 3",
-          "imgSrc": "test-image.jpeg",
-          "description": "Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo"
+          "name": "Miami",
+          "imgSrc": "hotdogs/miami.jpeg",
+          "description": "100gr. salchicha, costra de queso mozarella, piña, tocineta y cebolla guisada."
         },
         {
           "name": "Test 4",
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "name": "Hamburguesa",
+      "name": "Hamburguesas",
       "platillos": [
         {
           "name": "Test 1",
