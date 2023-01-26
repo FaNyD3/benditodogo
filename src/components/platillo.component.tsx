@@ -25,18 +25,16 @@ export default function Platillo({
   const classes = useStyles({});
   return (
     <>
-      {descriptionPosition === PlatilloPosition.left && (
-        <Grid item xs={5}>
+      <Grid item xs={12}>
+        <Grid item xs={12} className={classes.platilloTitleContainer}>
+          <h2 className={classes.platilloTitle}> {name} </h2>
+        </Grid>
+        <Grid item xs={12}>
           <img
             className={classes.PlatilloImage}
             src={require(`../assets/${imgSrc}`)}
             alt={`${section || "platillo"} ${name}`}
           />
-        </Grid>
-      )}
-      <Grid item xs={7}>
-        <Grid item xs={12} className={classes.platilloTitleContainer}>
-          <h2 className={classes.platilloTitle}> {name} </h2>
         </Grid>
         <Grid item xs={12}>
           <p
@@ -49,15 +47,6 @@ export default function Platillo({
           </p>
         </Grid>
       </Grid>
-      {descriptionPosition === PlatilloPosition.right && (
-        <Grid item xs={5}>
-          <img
-            className={classes.PlatilloImage}
-            src={require(`../assets/${imgSrc}`)}
-            alt={`${section || "platillo"} ${name}`}
-          />
-        </Grid>
-      )}
     </>
   );
 }
