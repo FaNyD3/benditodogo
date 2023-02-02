@@ -19,29 +19,29 @@
           "description": "100gr. salchicha, costra de queso mozarella, piña, tocineta y cebolla guisada."
         },
         {
-          "name": "Test 4",
-          "imgSrc": "test-image.jpeg",
-          "description": "Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo"
+          "name": "Misuri",
+          "imgSrc": "hotdogs/misuri.jpeg",
+          "description": "100gr. salchicha, guacamole, cebolla guisada, queso suizo y topping de totopos."
         },
         {
-          "name": "Test 5",
-          "imgSrc": "test-image.jpeg",
-          "description": "Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo"
+          "name": "pizza",
+          "imgSrc": "hotdogs/pizza.jpeg",
+          "description": "100gr. salchicha, costra de queso mozarella, champiñones, pepperoni y salsa de pizza."
         },
         {
-          "name": "Test 6",
-          "imgSrc": "test-image.jpeg",
-          "description": "Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo"
+          "name": "teriyaki",
+          "imgSrc": "hotdogs/teriyaki.jpeg",
+          "description": "100gr. salchicha, tocino, ajonjoli dulce y cebollin, bañado en salsa teriyaki."
         },
         {
-          "name": "Test 7",
-          "imgSrc": "test-image.jpeg",
-          "description": "Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo"
+          "name": "texas",
+          "imgSrc": "hotdogs/texas.jpeg",
+          "description": "100gr. salchicha, queso gouda, tocino y aros de cebolla, bañado en salsa BBQ."
         },
         {
-          "name": "Test 8",
-          "imgSrc": "test-image.jpeg",
-          "description": "Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo"
+          "name": "tradicional",
+          "imgSrc": "hotdogs/tradicional.jpeg",
+          "description": ""
         },
         {
           "name": "Test 9",
