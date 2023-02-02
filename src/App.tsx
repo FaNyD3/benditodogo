@@ -38,11 +38,6 @@ function App() {
                   name={platillo.name}
                   imgSrc={platillo.imgSrc}
                   description={platillo.description}
-                  descriptionPosition={
-                    (index + 1) % 2 == 0
-                      ? PlatilloPosition.right
-                      : PlatilloPosition.left
-                  }
                 />
               ))}
             </>

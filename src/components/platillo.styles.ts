@@ -9,22 +9,18 @@ const useStyles = makeStyles((theme: Theme) => ({
   platilloTitle: {
     marginBottom: "10px",
     marginTop: "10px",
+    fontSize: "32px",
   },
   PlatilloImage: {
     width: "100%",
     height: "321px",
-    objectFit: 'cover',
-    objectPosition: '0 -126px'
+    objectFit: "cover",
+    objectPosition: "0 -126px",
   },
-  descriptionRight: {
+  description: {
     fontFamily: "serif",
     textAlign: "justify",
-    marginLeft: "10px",
-  },
-  descriptionLeft: {
-    fontFamily: "serif",
-    textAlign: "justify",
-    marginRight: "10px",
+    fontSize: "20px",
   },
 }));
 export default useStyles;

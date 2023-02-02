@@ -1,6 +1,5 @@
 import Grid from "@mui/material/Grid";
 import useStyles from "./platillo.styles";
-import testImage from "../assets/test-image.jpeg";
 
 export const PlatilloPosition = {
   left: "left",
@@ -12,7 +11,6 @@ interface Props {
   name: string;
   imgSrc: string;
   description: string;
-  descriptionPosition: string;
 }
 
 export default function Platillo({
@@ -20,7 +18,6 @@ export default function Platillo({
   name,
   imgSrc,
   description,
-  descriptionPosition,
 }: Props) {
   const classes = useStyles({});
   return (
@@ -37,14 +34,7 @@ export default function Platillo({
           />
         </Grid>
         <Grid item xs={12}>
-          <p
-            className={
-              descriptionPosition == PlatilloPosition.right
-                ? classes.descriptionLeft
-                : classes.descriptionRight
-            }>
-            {`${descriptionPosition}-${description}`}
-          </p>
+          <p className={classes.description}>{`${description}`}</p>
         </Grid>
       </Grid>
     </>
