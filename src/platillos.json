@@ -5,53 +5,63 @@
       "platillos": [
         {
           "name": "Carnivoro",
-          "imgSrc": "hotdogs/carnivoro.jpeg",
+          "imgSrc": "hotdogs/carnivoro_cropt.jpeg",
           "description": "100gr. de salchicha, costra de queso mozzarella, salami, pepperoni, chorizo y tocino."
         },
         {
-          "name": "Kansas",
-          "imgSrc": "hotdogs/kansas.jpeg",
-          "description": "100gr. salchicha, costra de queso, elote amarillo, cebolla guisada y champiñones."
-        },
-        {
-          "name": "Miami",
-          "imgSrc": "hotdogs/miami.jpeg",
-          "description": "100gr. salchicha, costra de queso mozarella, piña, tocineta y cebolla guisada."
-        },
-        {
-          "name": "Misuri",
-          "imgSrc": "hotdogs/misuri.jpeg",
-          "description": "100gr. salchicha, guacamole, cebolla guisada, queso suizo y topping de totopos."
-        },
-        {
-          "name": "pizza",
-          "imgSrc": "hotdogs/pizza.jpeg",
-          "description": "100gr. salchicha, costra de queso mozarella, champiñones, pepperoni y salsa de pizza."
-        },
-        {
-          "name": "teriyaki",
-          "imgSrc": "hotdogs/teriyaki.jpeg",
-          "description": "100gr. salchicha, tocino, ajonjoli dulce y cebollin, bañado en salsa teriyaki."
-        },
-        {
-          "name": "texas",
-          "imgSrc": "hotdogs/texas.jpeg",
+          "name": "Texas",
+          "imgSrc": "hotdogs/texas_cropt.jpeg",
           "description": "100gr. salchicha, queso gouda, tocino y aros de cebolla, bañado en salsa BBQ."
         },
         {
-          "name": "tradicional",
-          "imgSrc": "hotdogs/tradicional.jpeg",
-          "description": ""
+          "name": "Michigan",
+          "imgSrc": "test-image.jpeg",
+          "description": "100gr. salchicha, tocino, salami y aguacate."
         },
         {
-          "name": "Test 9",
-          "imgSrc": "test-image.jpeg",
-          "description": "Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo"
+          "name": "Veggie",
+          "imgSrc": "hotdogs/veggie_cropt.jpeg",
+          "description": "100gr. salchicha, costra de queso mozarella, champiñones, pimientos y cebolla guisada."
         },
         {
-          "name": "Test 10",
-          "imgSrc": "test-image.jpeg",
-          "description": "Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo"
+          "name": "Teriyaki",
+          "imgSrc": "hotdogs/teriyaki_cropt.jpeg",
+          "description": "100gr. salchicha, tocino, ajonjoli dulce y cebollin, bañado en salsa teriyaki."
+        },
+        {
+          "name": "Pizza",
+          "imgSrc": "hotdogs/pizza_cropt.jpeg",
+          "description": "100gr. salchicha, costra de queso mozarella, champiñones, pepperoni y salsa de pizza."
+        },
+        {
+          "name": "Miami",
+          "imgSrc": "hotdogs/miami_cropt.jpeg",
+          "description": "100gr. salchicha, costra de queso mozarella, piña, tocineta y cebolla guisada."
+        },
+        {
+          "name": "Kansas",
+          "imgSrc": "hotdogs/kansas_cropt.jpeg",
+          "description": "100gr. salchicha, costra de queso, elote amarillo, cebolla guisada y champiñones."
+        },
+        {
+          "name": "Misuri",
+          "imgSrc": "hotdogs/misuri_cropt.jpeg",
+          "description": "100gr. salchicha, guacamole, cebolla guisada, queso suizo y topping de totopos."
+        },
+        {
+          "name": "Tradicional tocino",
+          "imgSrc": "hotdogs/tradicional_tocino_cropt.jpeg",
+          "description": "100gr de salchicha, cebolla cruda y jitomate crudo"
+        },
+        {
+          "name": "Tradicional",
+          "imgSrc": "hotdogs/tradicional_cropt.jpeg",
+          "description": "100gr de salchicha, cebolla cruda y jitomate crudo"
+        },
+        {
+          "name": "Tradicional especial",
+          "imgSrc": "hotdogs/tradicional_cropt.jpeg",
+          "description": "100gr de salchicha, panela, tocino, cebolla y jitomate crudo"
         }
       ]
     },
@@ -59,14 +69,14 @@
       "name": "Hamburguesas",
       "platillos": [
         {
-          "name": "Test 1",
-          "imgSrc": "test-image.jpeg",
-          "description": "Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo"
+          "name": "California",
+          "imgSrc": "hamburguesas/california_cropt.jpeg",
+          "description": "125gr de carne, queso americano, tocino, cebolla, jitomate, lechuga y 100gr de papas a la francesa"
         },
         {
-          "name": "Test 2",
-          "imgSrc": "test-image.jpeg",
-          "description": "Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo"
+          "name": "California doble",
+          "imgSrc": "hamburguesas/doble_cropt.jpeg",
+          "description": "130gr de carne, queso americano, tocino, ceb"
         },
         {
           "name": "Test 3",
