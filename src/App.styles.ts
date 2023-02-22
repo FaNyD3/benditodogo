@@ -44,12 +44,13 @@ const useStyles = makeStyles((theme: Theme) => ({
     },
   },
   title: {
-    fontSize: "68px",
+    fontSize: "62px",
     marginTop: "0",
     marginBottom: "0",
   },
   menuContainer: {
     padding: "10px",
+    overflow: "hidden",
   },
 }));
 

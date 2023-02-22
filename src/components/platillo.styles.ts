@@ -14,8 +14,8 @@ const useStyles = makeStyles((theme: Theme) => ({
   PlatilloImage: {
     width: "100%",
     height: "321px",
-    objectFit: "cover",
-    objectPosition: "0 -126px",
+    //objectFit: "cover",
+    //objectPosition: "0 -126px",
   },
   description: {
     fontFamily: "serif",
