@@ -71,52 +71,57 @@
         {
           "name": "California",
           "imgSrc": "hamburguesas/california_cropt.jpeg",
-          "description": "125gr de carne, queso americano, tocino, cebolla, jitomate, lechuga y 100gr de papas a la francesa"
+          "description": "125gr de carne, queso amarillo, tocino, cebolla, jitomate, lechuga y 100gr de papas a la francesa"
         },
         {
           "name": "California doble",
           "imgSrc": "hamburguesas/doble_cropt.jpeg",
-          "description": "130gr de carne, queso americano, tocino, ceb"
+          "description": "230gr de carne, queso amarillo, tocino, cebolla, jitomate, lechuga, 100gr de papas a la francesa."
         },
         {
-          "name": "Test 3",
-          "imgSrc": "test-image.jpeg",
-          "description": "Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo"
+          "name": "Style",
+          "imgSrc": "hamburguesas/style_cropt.jpeg",
+          "description": "125gr de carne, queso amarillo, mermelada de tocino, aderezo de ajo y 100gr de papas a la francesa. "
         },
         {
-          "name": "Test 4",
-          "imgSrc": "test-image.jpeg",
-          "description": "Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo"
+          "name": "Veganni",
+          "imgSrc": "hamburguesas/veganni_cropt.jpeg",
+          "description": "125gr de carne, queso amarillo, cebolla caramelizada, pimientos, tocino y 100gr de papas a la francesa"
         },
         {
-          "name": "Test 5",
-          "imgSrc": "test-image.jpeg",
-          "description": "Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo"
+          "name": "Texana",
+          "imgSrc": "hamburguesas/texana_cropt.jpeg",
+          "description": "125gr de carne, queso suizo, aros de cebolla, salsa BBQ, cebolla, jitomate, lechuga y 100gr de papas a la francesa."
         },
         {
-          "name": "Test 6",
-          "imgSrc": "test-image.jpeg",
-          "description": "Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo"
+          "name": "Avocado",
+          "imgSrc": "hamburguesas/avocado_cropt.jpeg",
+          "description": "125gr de carne, queso suizo, guacamole, totopos, cebolla, jitimate, lechuga y 100gr de papas a la francesa."
         },
         {
-          "name": "Test 7",
-          "imgSrc": "test-image.jpeg",
-          "description": "Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo"
+          "name": "Honolulu",
+          "imgSrc": "hamburguesas/honolulu_cropt.jpeg",
+          "description": "125gr de carne, cebolla caramelizada, piña, tocineta, jitomate, lechuga y 100gr de papas a la francesa."
         },
         {
-          "name": "Test 8",
-          "imgSrc": "test-image.jpeg",
-          "description": "Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo"
+          "name": "Cheese",
+          "imgSrc": "hamburguesas/cheese_cropt.jpeg",
+          "description": "125gr de carne, queso amarillo, queso mozzarella cubierta de panko natural o flamin hot y 100gr de papas a la francesa."
         },
         {
-          "name": "Test 9",
-          "imgSrc": "test-image.jpeg",
-          "description": "Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo"
+          "name": "3 quesos",
+          "imgSrc": "hamburguesas/3_quesos_cropt.jpeg",
+          "description": "125gr de carne, queso gouda, queso suizo, queso mozzarella, tocino y 100gr de papas a la francesa."
         },
         {
-          "name": "Test 10",
+          "name": "Pollo crispy",
           "imgSrc": "test-image.jpeg",
-          "description": "Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo,Descripcion del platillo"
+          "description": "140gr de pollo tender, queso amarillo, lechuga, jitomate, cebolla y 100gr de papas a la francesa."
+        },
+        {
+          "name": "Buffalo chicken",
+          "imgSrc": "hamburguesas/bufalo.jpeg",
+          "description": "140gr de pollo tender bañado en salsa bufalo, queso suizo, cebolla, jitomate, lechuga y 100gr de papas a la francesa"
         }
       ]
     }
