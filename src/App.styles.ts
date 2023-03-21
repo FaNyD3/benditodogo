@@ -1,27 +1,12 @@
 import { Theme } from "@mui/material/styles";
 import { makeStyles } from "@material-ui/core/styles";
+import headerImage from "./assets/Header.png";
+import footerImage from "./assets/Footer.png";
 
 const useStyles = makeStyles((theme: Theme) => ({
-  root: {
-    boxSizing: "border-box",
-  },
-  spacer: {
-    height: "50px",
-  },
-  headerContainer: {
-    background:
-      "linear-gradient(to right top, #38438b, #944b94, #d75a88, #ff7e71, #ffb25f, #ffeb68);",
-    width: "100vw",
-    height: "100vh",
-    [theme.breakpoints.down("sm")]: {
-      height: "65vh",
-    },
-  },
-  header: {
-    height: "10vh",
-    display: "flex",
-    justifyContent: "center",
-    paddingTop: "10px",
+  mainContainer: {
+    maxHeight: "100vh",
+    position: "fixed",
   },
   menuHeader: {
     display: "flex",
@@ -29,28 +14,39 @@ const useStyles = makeStyles((theme: Theme) => ({
     paddingTop: "10px",
     paddingBottom: "20px",
   },
-  img: {
-    height: "7vh",
-  },
-  mainImageContainer: {
-    display: "flex",
-    justifyContent: "center",
-    paddingTop: "6%",
-  },
-  headerImage: {
-    height: "30vh",
-    [theme.breakpoints.down("sm")]: {
-      height: "25vh",
-    },
-  },
   title: {
     fontSize: "62px",
     marginTop: "0",
     marginBottom: "0",
   },
+  headerImage: {
+    width: "101%",
+    height: "10vh",
+  },
+  header: {
+    width: "100%",
+    position: "sticky",
+    top: "0",
+    height: "10vh",
+    backgroundImage: `url(${headerImage})`,
+    backgroundSize: "100%",
+  },
+  footer: {
+    width: "100%",
+    position: "sticky",
+    bottom: "0",
+    height: "10vh",
+    backgroundImage: `url(${footerImage})`,
+    backgroundSize: "100%",
+  },
   menuContainer: {
-    padding: "10px",
-    overflow: "hidden",
+    maxHeight: "70vh",
+    minHeight: "70vh",
+    overflow: "scroll",
+    height: "3000px",
+  },
+  testContent: {
+    height: "3000px",
   },
 }));
 
