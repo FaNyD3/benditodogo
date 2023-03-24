@@ -2,20 +2,15 @@ import { Theme } from "@mui/material/styles";
 import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme: Theme) => ({
-  platilloTitleContainer: {
-    display: "flex",
-    justifyContent: "center",
+  platilloContainer: {
+    justifyContent: "space-between",
+    padding: "10px 25px",
   },
-  platilloTitle: {
-    marginBottom: "10px",
-    marginTop: "10px",
-    fontSize: "32px",
-  },
-  PlatilloImage: {
+  platilloName: {
+    display: "inline-block",
     width: "100%",
-    height: "321px",
-    //objectFit: "cover",
-    //objectPosition: "0 -126px",
+    fontSize: "25px",
+    color: "#fe5208",
   },
   description: {
     fontFamily: "serif",
