@@ -17,10 +17,11 @@ const useStyles = makeStyles((theme: Theme) => ({
     backgroundSize: "100vw 10vh",
   },
   menuContainer: {
-    maxHeight: "80vh",
+    maxHeight: "89vh",
     minHeight: "80vh",
     overflow: "scroll",
     overflowX: "hidden",
+    marginTop: "-6vh",
     height: "3000px",
   },
   testContent: {
