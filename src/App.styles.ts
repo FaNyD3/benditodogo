@@ -5,8 +5,34 @@ import footerImage from "./assets/Footer.png";
 
 const useStyles = makeStyles((theme: Theme) => ({
   mainContainer: {
-    maxHeight: "100vh",
+    height: "100vh",
     position: "fixed",
+  },
+  header: {
+    width: "100%",
+    position: "sticky",
+    top: "0",
+    height: "10vh",
+    backgroundImage: `url(${headerImage})`,
+    backgroundSize: "100vw 10vh",
+  },
+  menuContainer: {
+    maxHeight: "80vh",
+    minHeight: "80vh",
+    overflow: "scroll",
+    overflowX: "hidden",
+    height: "3000px",
+  },
+  testContent: {
+    height: "3000px",
+  },
+  footer: {
+    width: "100vw",
+    position: "sticky",
+    bottom: "0",
+    height: "10vh",
+    backgroundImage: `url(${footerImage})`,
+    backgroundSize: "100vw 10vh",
   },
   menuHeader: {
     display: "flex",
@@ -20,33 +46,8 @@ const useStyles = makeStyles((theme: Theme) => ({
     marginBottom: "0",
   },
   headerImage: {
-    width: "101%",
+    width: "100vw",
     height: "10vh",
-  },
-  header: {
-    width: "100%",
-    position: "sticky",
-    top: "0",
-    height: "10vh",
-    backgroundImage: `url(${headerImage})`,
-    backgroundSize: "100%",
-  },
-  footer: {
-    width: "100%",
-    position: "sticky",
-    bottom: "0",
-    height: "10vh",
-    backgroundImage: `url(${footerImage})`,
-    backgroundSize: "100%",
-  },
-  menuContainer: {
-    maxHeight: "70vh",
-    minHeight: "70vh",
-    overflow: "scroll",
-    height: "3000px",
-  },
-  testContent: {
-    height: "3000px",
   },
 }));
 
