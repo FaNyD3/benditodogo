@@ -9,6 +9,12 @@
    url("./fonts/menu/menu-font.ttf") format("truetype");
   font-weight: normal;
 }
+@font-face {
+  font-family: "titles";
+  src: local("titles"),
+  url("./fonts/menu/titles.ttf") format("truetype");
+  font-weight: normal;
+}
 
 body {
   margin: 0;
