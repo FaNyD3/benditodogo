@@ -8,16 +8,27 @@ const useStyles = makeStyles((theme: Theme) => ({
     alignContent: "center",
     textAlign: "center",
     width: "100%",
-    height: "90vh",
-    // este estilo se va  a remover es solo para poder visualizar el alto del componente y hasta donde llega
-    border: "1px solid #000",
+    height: "100vh",
+    background: `linear-gradient(${calculateSkewAngle()}deg, rgba(252,80,4,1)  50%, rgba(255,255,255,1) 50%)`,
   },
   logo: {
-    marginTop: "15%",
-    width: "70%",
+    marginTop: "10vh",
+    width: "60%",
+    marginBottom: "5vh",
+  },
+  bienvenidosText: {
+    marginTop: "10vh",
+    fontFamily: "Titles",
+    fontSize: "calc(1em + 7vw)",
   },
   menuTitle: {
-    fontSize: "100px",
+    width: "85%",
   },
 }));
 export default useStyles;
+
+const calculateSkewAngle = () => {
+  const radians = Math.atan2(window.innerHeight, window.innerWidth);
+  const degrees = (radians * 180) / Math.PI;
+  return -degrees.toFixed(2);
+};

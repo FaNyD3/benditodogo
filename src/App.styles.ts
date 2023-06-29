@@ -13,12 +13,11 @@ const useStyles = makeStyles((theme: Theme) => ({
     position: "sticky",
     top: "0",
     height: "10vh",
-    backgroundImage: `url(${headerImage})`,
     backgroundSize: "100vw 10vh",
+    fontSize: "40px",
+    backgroundColor: "#fff",
   },
   menuContainer: {
-    maxHeight: "89vh",
-    minHeight: "80vh",
     overflow: "scroll",
     overflowX: "hidden",
     marginTop: "-6vh",
@@ -32,7 +31,6 @@ const useStyles = makeStyles((theme: Theme) => ({
     position: "sticky",
     bottom: "0",
     height: "10vh",
-    backgroundImage: `url(${footerImage})`,
     backgroundSize: "100vw 10vh",
   },
   menuHeader: {
