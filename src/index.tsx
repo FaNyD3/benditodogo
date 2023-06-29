@@ -2,8 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
-import "./fonts/menu/menu-font.ttf";
-import "./fonts/menu/titles.ttf";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement

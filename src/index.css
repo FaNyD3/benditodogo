@@ -1,18 +1,18 @@
 * {
   box-sizing: border-box;
-  font-family: 'menu', 'serif', 'Roboto', 'Segoe UI';
+  font-family: 'Descriptions', 'serif', 'Roboto', 'Segoe UI';
 }
 
 @font-face {
-  font-family: "menu";
-  src: local("menu"),
-   url("./fonts/menu/menu-font.ttf") format("truetype");
+  font-family: "Descriptions";
+  src: local("Descriptions"),
+   url("./fonts/Mont.otf") format("opentype");
   font-weight: normal;
 }
 @font-face {
-  font-family: "titles";
-  src: local("titles"),
-  url("./fonts/menu/titles.ttf") format("truetype");
+  font-family: "Titles";
+  src: local("Titles"),
+  url("./fonts/bobby-jones-soft.otf") format("opentype");
   font-weight: normal;
 }
 
