@@ -9,10 +9,16 @@ const useStyles = makeStyles((theme: Theme) => ({
     width: "100%",
   },
   title: {
-    fontFamily: "titles",
-    fontSize: "50px",
+    fontFamily: "Titles",
+    fontSize: "calc(1em + 8vw)",
     textAlign: "center",
     margin: "20px auto 10px auto",
+  },
+  menuImage: {
+    width: "30vw",
+    position: "relative",
+    top: "-6vh",
+    left: "-34vw",
   },
 }));
 export default useStyles;

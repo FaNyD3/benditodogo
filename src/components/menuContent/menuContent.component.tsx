@@ -2,6 +2,7 @@ import Grid from "@mui/material/Grid";
 import useStyles from "./menuContent.styles";
 import menuData from "../../platillos.json";
 import Platillo from "../Platillo/platillo.component";
+import menuImage from "../../assets/Menu_small.png";
 
 export default function MenuContent() {
   const classes = useStyles({});
@@ -10,6 +11,7 @@ export default function MenuContent() {
       {menuData.sections.map((section) => (
         <>
           <h2 className={classes.title}>{section.name}</h2>
+          <img className={classes.menuImage} src={menuImage}></img>
           {section.platillos.map((platillo, index) => (
             <Platillo {...platillo} />
           ))}

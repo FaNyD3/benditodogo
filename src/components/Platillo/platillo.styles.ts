@@ -7,13 +7,14 @@ const useStyles = makeStyles((theme: Theme) => ({
     padding: "10px 25px",
   },
   platilloName: {
+    fontFamily: "Titles",
     display: "inline-block",
     width: "100%",
-    fontSize: "25px",
+    fontSize: "30px",
     color: "#fe5208",
   },
   description: {
-    fontFamily: "serif",
+    fontFamily: "Descriptions",
     textAlign: "justify",
     fontSize: "20px",
   },

@@ -20,8 +20,7 @@ const useStyles = makeStyles((theme: Theme) => ({
   menuContainer: {
     overflow: "scroll",
     overflowX: "hidden",
-    marginTop: "-6vh",
-    height: "3000px",
+    height: "100vh",
   },
   testContent: {
     height: "3000px",
