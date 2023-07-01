@@ -13,7 +13,7 @@ interface Props {
   price: string;
 }
 
-export default function Platillo({ name, imgSrc, description, price }: Props) {
+export default function Platillo({ name, description, price }: Props) {
   const classes = useStyles({});
   return (
     <Grid xs={12} className={classes.platilloContainer}>

@@ -14,9 +14,7 @@ function App() {
     <>
       <Grid container className={classes.mainContainer}>
         <header
-          style={
-            section.length > 0 ? { display: "inline" } : { display: "none" }
-          }
+          style={section.length > 0 ? { display: "flex" } : { display: "none" }}
           className={classes.header}>
           <img className={classes.menuImage} src={menuImage}></img>
           <p className={classes.sectionName}>{section}</p>
@@ -29,7 +27,7 @@ function App() {
         </Grid>
         <footer
           style={
-            section.length > 0 ? { display: "inline" } : { display: "none" }
+            footerText.length > 0 ? { display: "flex" } : { display: "none" }
           }
           className={classes.footer}>
           <Grid container className={classes.footerContainer}>

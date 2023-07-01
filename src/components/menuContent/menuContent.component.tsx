@@ -68,6 +68,11 @@ export default function MenuContent({
           {section.platillos.map((platillo: any) => (
             <Platillo {...platillo} />
           ))}
+          {section.footerConfig.images.map((image) => {
+            const src = `../../assets/${image}`;
+            console.log(src);
+            return <img src={src} alt="src" />;
+          })}
         </>
       ))}
     </Grid>

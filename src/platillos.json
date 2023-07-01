@@ -78,7 +78,12 @@
       ],
       "footerConfig": {
         "text": "Todos nuestros dogos se acompañan con papa  dorada.",
-        "images": ["Carnivoro.png", "Texas.png", "pizza", "Kansas"]
+        "images": [
+          "hotdogs/Carnivoro.png",
+          "hotdogs/Kansas.png",
+          "hotdogs/Pizza.png",
+          "hotdogs/Texas.png"
+        ]
       }
     },
     {
@@ -153,7 +158,11 @@
       ],
       "footerConfig": {
         "text": "Todos nuestras hamburguesas  se acompañan con papas a las francesa (100g)",
-        "images": ["Carnivoro.png", "Texas.png", "pizza", "Kansas"]
+        "images": [
+          "hamburguesas/CaliforniaDoble.png",
+          "hamburguesas/Honolulu.png",
+          "hamburguesas/Texana.png"
+        ]
       }
     },
     {
@@ -240,7 +249,11 @@
       ],
       "footerConfig": {
         "text": "Cambia tus papas por Gajo o Camote con un costo extra.",
-        "images": ["Carnivoro.png", "Texas.png", "pizza", "Kansas"]
+        "images": [
+          "slides/ClassicFries.png",
+          "slides/Dogocoreano.png",
+          "slides/MunchiesFries.png"
+        ]
       }
     }
   ]
