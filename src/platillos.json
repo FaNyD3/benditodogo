@@ -75,7 +75,11 @@
           "description": "100gr de salchicha, panela, tocino, cebolla y jitomate crudo",
           "price": "$50.00"
         }
-      ]
+      ],
+      "footerConfig": {
+        "text": "Todos nuestros dogos se acompañan con papa  dorada.",
+        "images": ["Carnivoro.png", "Texas.png", "pizza", "Kansas"]
+      }
     },
     {
       "name": "BURGERS",
@@ -114,7 +118,7 @@
           "name": "Avocado",
           "imgSrc": "hamburguesas/avocado_cropt.jpeg",
           "description": "125gr de carne, queso suizo, guacamole, totopos, cebolla, jitomate y lechuga. Acompañada de 100gr de papas a la francesa.",
-          "price": "$109.00"        
+          "price": "$109.00"
         },
         {
           "name": "Honolulu",
@@ -146,7 +150,11 @@
           "description": "140gr de pollo tender bañado en salsa bufalo, queso suizo, cebolla, jitomate y lechuga. Acompañada de 100gr de papas a la francesa",
           "price": "$99.00"
         }
-      ]
+      ],
+      "footerConfig": {
+        "text": "Todos nuestras hamburguesas  se acompañan con papas a las francesa (100g)",
+        "images": ["Carnivoro.png", "Texas.png", "pizza", "Kansas"]
+      }
     },
     {
       "name": "Sides",
@@ -229,7 +237,11 @@
           "description": "Dogo relleno de queso mozarella, salchicha o combinado.",
           "price": "$49.00"
         }
-      ]
+      ],
+      "footerConfig": {
+        "text": "Cambia tus papas por Gajo o Camote con un costo extra.",
+        "images": ["Carnivoro.png", "Texas.png", "pizza", "Kansas"]
+      }
     }
   ]
 }

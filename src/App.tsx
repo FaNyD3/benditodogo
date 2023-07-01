@@ -6,13 +6,19 @@ import { useState } from "react";
 
 function App() {
   const classes = useStyles({});
+  const [section, setSection] = useState("");
+  const [footerText, setFooterText] = useState("");
   return (
     <>
       <Grid container className={classes.mainContainer}>
+        <header>{section}</header>
         <Grid container className={classes.menuContainer}>
           <MenuMainPage></MenuMainPage>
-          <MenuContent></MenuContent>
+          <MenuContent
+            handleSetSection={setSection}
+            handleFooterText={setFooterText}></MenuContent>
         </Grid>
+        <footer>{footerText}</footer>
       </Grid>
     </>
   );
