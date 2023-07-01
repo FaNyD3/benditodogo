@@ -31,7 +31,7 @@ export default function MenuContent({
           const footerText = menuData.sections.find(
             (s: any) => s.name == entry.target.innerText
           )?.footerConfig?.text;
-          console.log(footerText);
+          handleFooterText(footerText);
         }
       });
     };

@@ -9,34 +9,22 @@ const useStyles = makeStyles((theme: Theme) => ({
     position: "fixed",
   },
   header: {
-    width: "100%",
-    position: "sticky",
     top: "0",
-    height: "10vh",
-    backgroundSize: "100vw 10vh",
-    fontSize: "40px",
+    width: "100%",
+    height: "8vh",
+    display: "flex",
+    position: "sticky",
+    textAlign: "center",
     backgroundColor: "#fff",
+    backgroundSize: "100vw 10vh",
   },
   menuContainer: {
     overflow: "scroll",
     overflowX: "hidden",
-    height: "100vh",
+    height: "83vh",
   },
   testContent: {
     height: "3000px",
-  },
-  footer: {
-    width: "100vw",
-    position: "sticky",
-    bottom: "0",
-    height: "10vh",
-    backgroundSize: "100vw 10vh",
-  },
-  menuHeader: {
-    display: "flex",
-    justifyContent: "center",
-    paddingTop: "10px",
-    paddingBottom: "20px",
   },
   title: {
     fontSize: "62px",
@@ -46,6 +34,47 @@ const useStyles = makeStyles((theme: Theme) => ({
   headerImage: {
     width: "100vw",
     height: "10vh",
+  },
+  footer: {
+    bottom: "0",
+    height: "10vh",
+    width: "100vw",
+    display: "flex",
+    fontSize: "25px",
+    position: "sticky",
+    backgroundSize: "100vw 10vh",
+    backgroundColor: "#fff",
+  },
+  footerContainer: {
+    textAlign: "center",
+
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  admiracionOpen: {
+    margin: "0, 20px, 0, 20px",
+    height: "8vh",
+  },
+  admiracionclose: {
+    margin: "0, 20px, 0, 20px",
+    height: "8vh",
+  },
+  footerText: {
+    margin: 0,
+    display: "flex",
+    fontFamily: "Titles",
+  },
+  menuImage: {
+    width: "30vw",
+    position: "relative",
+    height: "10vw",
+    top: "26px",
+  },
+  sectionName: {
+    display: "flex",
+    fontSize: "40px",
+    fontFamily: "Titles",
+    margin: "0",
   },
 }));
 
