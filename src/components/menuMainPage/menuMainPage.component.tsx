@@ -1,6 +1,6 @@
 import Grid from "@mui/material/Grid";
 import useStyles from "./menuMainPage.styles";
-import logo from "../../assets/BenditoDogoLogo.png";
+import logo from '../../assets/BenditodogoLogo.png';
 import menuImage from "../../assets/image.png";
 
 export default function MenuMainPage() {
