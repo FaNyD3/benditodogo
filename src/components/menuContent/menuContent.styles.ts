@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme: Theme) => ({
     fontFamily: "Titles",
     fontSize: "calc(1em + 8vw)",
     textAlign: "center",
-    margin: "20px auto 10px auto",
+    margin: "20px auto 10px 15px",
   },
   menuImage: {
     width: "30vw",

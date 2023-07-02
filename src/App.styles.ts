@@ -75,6 +75,7 @@ const useStyles = makeStyles((theme: Theme) => ({
     fontSize: "40px",
     fontFamily: "Titles",
     margin: "0",
+    marginLeft: "27px"
   },
 }));
 
