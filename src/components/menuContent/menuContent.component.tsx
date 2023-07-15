@@ -69,7 +69,8 @@ export default function MenuContent({
             <Platillo {...platillo} />
           ))}
           {section.footerConfig.images.map((image) => {
-            const src = `../../assets/${image}`;
+            // const src = `../../assets/${image}`;
+            const src = '../../assets/hamburguesas/Honolulu.png';
             console.log(src);
             return <img src={src} alt="src" />;
           })}
