@@ -4,6 +4,16 @@ import menuData from "../../platillos.json";
 import Platillo from "../Platillo/platillo.component";
 import menuImage from "../../assets/Menu_small.png";
 import { useCallback, useEffect, useRef, useState } from "react";
+import Carnivoro from "../../assets/hotdogs/carnivoro.png";
+import Kansas from "../../assets/hotdogs/kansas.png";
+import Pizza from "../../assets/hotdogs/pizza.png";
+import Texas from "../../assets/hotdogs/texas.png";
+import CaliforniaDoble from "../../assets/hamburguesas/californiaDoble.png";
+import Honolulu from "../../assets/hamburguesas/honolulu.png";
+import Texana from "../../assets/hamburguesas/texana.png";
+import ClassicFries from "../../assets/slides/classicFries.png";
+import Dogocoreano from "../../assets/slides/dogocoreano.png";
+import MunchiesFries from "../../assets/slides/munchiesFries.png";
 
 export default function MenuContent({
   handleSetSection,
@@ -11,12 +21,22 @@ export default function MenuContent({
 }: any) {
   const classes = useStyles({});
   const SectionRefList: any = useRef([]);
-  const sectionTitleList: any = useRef(["DOGOS", "BURGERS", "SIDES"]);
+  const loadedImages: any = {
+    Carnivoro: Carnivoro,
+    Kansas: Kansas,
+    Pizza: Pizza,
+    Texas: Texas,
+    CaliforniaDoble: CaliforniaDoble,
+    Honolulu: Honolulu,
+    Texana: Texana,
+    ClassicFries: ClassicFries,
+    Dogocoreano: Dogocoreano,
+    MunchiesFries: MunchiesFries,
+  };
 
   const updateRefList = useCallback((index: any, ref: any) => {
     SectionRefList.current[index] = ref;
   }, []);
-
   useEffect(() => {
     const observerOptions = {
       root: null,
@@ -68,11 +88,16 @@ export default function MenuContent({
           {section.platillos.map((platillo: any) => (
             <Platillo {...platillo} />
           ))}
+<<<<<<< HEAD
           {section.footerConfig.images.map((image) => {
             // const src = `../../assets/${image}`;
             const src = '../../assets/hamburguesas/Honolulu.png';
             console.log(src);
             return <img src={src} alt="src" />;
+=======
+          {section.footerConfig.images.map((image: string) => {
+            return <img src={loadedImages[image]} alt="src" />;
+>>>>>>> 26eac9fb41f9c7674d5728f2fa656f60801431d6
           })}
         </>
       ))}
