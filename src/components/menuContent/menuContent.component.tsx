@@ -3,7 +3,6 @@ import useStyles from "./menuContent.styles";
 import menuData from "../../platillos.json";
 import Platillo from "../Platillo/platillo.component";
 import menuImage from "../../assets/Menu_small.png";
-import test from "../../assets/Carnivoro.png";
 import { useCallback, useEffect, useRef, useState } from "react";
 
 export default function MenuContent({
@@ -74,6 +73,8 @@ export default function MenuContent({
             console.log(src);
             return <img key={imgIndex} src={src} className={classes.menuImage} alt="src" />;
           })}
+          <br />
+          <br />
           <br />
           <br />
           <br />
