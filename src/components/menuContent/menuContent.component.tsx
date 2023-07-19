@@ -3,6 +3,7 @@ import useStyles from "./menuContent.styles";
 import menuData from "../../platillos.json";
 import Platillo from "../Platillo/platillo.component";
 import menuImage from "../../assets/Menu_small.png";
+import test from "../../assets/Carnivoro.png";
 import { useCallback, useEffect, useRef, useState } from "react";
 
 export default function MenuContent({
@@ -64,15 +65,18 @@ export default function MenuContent({
             className={classes.title}>
             {section.name}
           </h2>
-          <img className={classes.menuImage} src={menuImage}></img>
+          <img className={classes.menuImage} src={menuImage}></img>    
           {section.platillos.map((platillo: any) => (
             <Platillo {...platillo} />
           ))}
-          {section.footerConfig.images.map((image) => {
-            const src = `../../assets/${image}`;
+          {section.footerConfig.images.map((image, imgIndex) => {
+            const src = `../../${image}`;
             console.log(src);
-            return <img src={src} alt="src" />;
+            return <img key={imgIndex} src={src} className={classes.menuImage} alt="src" />;
           })}
+          <br />
+          <br />
+          <br />
         </>
       ))}
     </Grid>

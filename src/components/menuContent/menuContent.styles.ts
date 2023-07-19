@@ -15,10 +15,10 @@ const useStyles = makeStyles((theme: Theme) => ({
     margin: "20px auto 10px 15px",
   },
   menuImage: {
-    width: "30vw",
+    width: "40vw",
     position: "relative",
-    top: "-6vh",
-    left: "-34vw",
+    top: "0vh",
+    left: "0vw",
   },
 }));
 export default useStyles;
