@@ -1,5 +1,4 @@
-import { Theme } from "@mui/material/styles";
-import { makeStyles } from "@material-ui/core/styles";
+import { makeStyles, Theme } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme: Theme) => ({
   container: {
@@ -20,5 +19,9 @@ const useStyles = makeStyles((theme: Theme) => ({
     top: "0vh",
     left: "0vw",
   },
+  menuImageSection: {
+    width: "40vw",
+    float: "left",
+  }
 }));
 export default useStyles;
