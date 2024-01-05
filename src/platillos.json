@@ -4,85 +4,77 @@
       "name": "DOGOS",
       "platillos": [
         {
-          "name": "Carnivoro",
-          "imgSrc": "hotdogs/carnivoro_cropt.jpeg",
-          "description": "110gr. de salchicha, costra de queso mozzarella, salami, pepperoni, chorizo y tocino.",
-          "price": "$60.00"
-        },
-        {
-          "name": "Texas",
+          "name": "Dogo Texas",
           "imgSrc": "hotdogs/texas_cropt.jpeg",
-          "description": "110gr. salchicha, queso suizo, tocino y aros de cebolla bañador en salsa BBQ",
-          "price": "$60.00"
+          "description": "Salchicha Frankfurt, queso suizo, tocino y aros de cebolla bañados en salsa BBQ.",
+          "price": "$70"
         },
         {
-          "name": "Michigan",
+          "name": "Dogo Carnívoro",
+          "imgSrc": "hotdogs/carnivoro_cropt.jpeg",
+          "description": "Salchicha Frankfurt, costra de queso mozzarella, salami, pepperoni, chorizo y tocino.",
+          "price": "$70"
+        },
+        {
+          "name": "Dogo Michigan",
           "imgSrc": "test-image.jpeg",
-          "description": "110gr. salchicha, tocino, salami y aguacate.",
-          "price": "$60.00"
+          "description": "Salchicha Frankfurt, salami, tocino y aguacate.",
+          "price": "$70"
         },
         {
-          "name": "Veggie",
-          "imgSrc": "hotdogs/veggie_cropt.jpeg",
-          "description": "110gr. salchicha, costra de queso mozarella, champiñones, pimientos y cebolla guisada caramelizada.",
-          "price": "$60.00"
-        },
-        {
-          "name": "Teriyaki",
-          "imgSrc": "hotdogs/teriyaki_cropt.jpeg",
-          "description": "110gr. salchicha, tocino, ajonjolì dulce bañado en salsa teriyaki.",
-          "price": "$60.00"
-        },
-        {
-          "name": "Pizza",
-          "imgSrc": "hotdogs/pizza_cropt.jpeg",
-          "description": "110gr. salchicha, costra de queso mozarella, champiñones, pepperoni y salsa de pizza.",
-          "price": "$60.00"
-        },
-        {
-          "name": "Miami",
+          "name": "Dogo Miami",
           "imgSrc": "hotdogs/miami_cropt.jpeg",
-          "description": "110gr. salchicha, costra de queso mozarella, piña, tocineta y cebolla caramelizada.",
-          "price": "$60.00"
+          "description": "Salchicha Frankfurt, costra de queso mozzarella, piña, tocineta y cebolla caramelizada.",
+          "price": "$70"
         },
         {
-          "name": "Kansas",
+          "name": "Dogo Veggie",
+          "imgSrc": "hotdogs/veggie_cropt.jpeg",
+          "description": "Salchicha Frankfurt, costra de queso mozzarella, champiñones, pimientos y cebolla caramelizada.",
+          "price": "$70"
+        },
+        {
+          "name": "Dogo Teriyaki",
+          "imgSrc": "hotdogs/teriyaki_cropt.jpeg",
+          "description": "Salchicha Frankfurt, tocino, pepino, ajonjolí dulce bañado en salsa teriyaki.",
+          "price": "$70"
+        },
+        {
+          "name": "Dogo Pizza",
+          "imgSrc": "hotdogs/pizza_cropt.jpeg",
+          "description": "Salchicha Frankfurt, costra de queso mozzarella, champiñones, pepperoni y salsa pizza.",
+          "price": "$70"
+        },
+        {
+          "name": "Dogo Kansas",
           "imgSrc": "hotdogs/kansas_cropt.jpeg",
-          "description": "110gr. salchicha, costra de queso, elote amarillo, cebolla caramelizada y champiñones.",
-          "price": "$60.00"
+          "description": "Salchicha Frankfurt, costra de queso mozzarella, elote amarillo, cebolla caramelizada y champiñones.",
+          "price": "$70"
         },
         {
-          "name": "Misuri",
+          "name": "Dogo Misuri",
           "imgSrc": "hotdogs/misuri_cropt.jpeg",
-          "description": "110gr. salchicha, queso suizo, guacamole, cebolla guisada y topping de totopos.",
-          "price": "$60.00"
+          "description": "Salchicha Frankfurt, queso suizo, guacamole, cebolla guisada y un topping de totopos.",
+          "price": "$70"
         },
         {
-          "name": "Tradicional tocino",
-          "imgSrc": "hotdogs/tradicional_tocino_cropt.jpeg",
-          "description": "110gr de salchicha, cebolla y jitomate",
-          "price": "$45.00"
-        },
-        {
-          "name": "Tradicional",
-          "imgSrc": "hotdogs/tradicional_cropt.jpeg",
-          "description": "110gr de salchicha, cebolla y jitomate",
-          "price": "$40.00"
-        },
-        {
-          "name": "Tradicional especial",
+          "name": "Dogo especial",
           "imgSrc": "tradicional_cropt.jpeg",
-          "description": "100gr de salchicha, panela, tocino, cebolla y jitomate crudo",
-          "price": "$50.00"
+          "description": "Salchicha Frankfurt, panela, tocino, cebolla cruda y jitomate.",
+          "price": "$55"
+        },
+        {
+          "name": "Dogo Tradicional tocino",
+          "imgSrc": "hotdogs/tradicional_tocino_cropt.jpeg",
+          "description": "Salchicha Frankfurt, tocino, cebolla cruda y jitomate.",
+          "price": "$50"
         }
       ],
       "footerConfig": {
         "text": "Todos nuestros dogos se acompañan con papa  dorada.",
         "images": [
-          "assets/Carnivoro.png",
-          "assets/Kansas.png",
           "assets/Pizza.png",
-          "assets/Texas.png"
+          "assets/Kansas.png"
         ]
       }
     },
@@ -92,76 +84,70 @@
         {
           "name": "California",
           "imgSrc": "hamburguesas/california_cropt.jpeg",
-          "description": "125gr de carne, queso tipo americano amarillo, tocino, cebolla, jitomate y lechuga. Acompañada de 100gr de papas a la francesa",
-          "price": "$89.00"
+          "description": "Carne Smash (125g), queso americano, tocino, cebolla, jitomate y lechuga.",
+          "price": "$99"
         },
         {
-          "name": "Doble",
+          "name": "California doble",
           "imgSrc": "hamburguesas/doble_cropt.jpeg",
-          "description": "230gr de carne, queso tipo americano amarillo, tocino, cebolla, jitomate y lechuga. Acompañada de 100gr de papas a la francesa.",
-          "price": "$125.00"
+          "description": " Carne Smash (250g), queso americano, tocino, cebolla, jitomate y lechuga.",
+          "price": "$130"
         },
         {
           "name": "Style",
           "imgSrc": "hamburguesas/style_cropt.jpeg",
-          "description": "125gr de carne, queso tipo ameriano amarillo, mermelada de tocino, aderezo de ajo, cebolla, jitomate y lechuga. Acompañada de 100gr de papas a la francesa.",
-          "price": "$109.00"
-        },
-        {
-          "name": "Veganni",
-          "imgSrc": "hamburguesas/veganni_cropt.jpeg",
-          "description": "125gr de carne, queso tipo americano amarillo, cebolla caramelizada, pimientos, champiñones, cebolla, jitomate y lechuga. Acompañada de 100gr de papas a la francesa",
-          "price": "$109.00"
-        },
-        {
-          "name": "Texana",
-          "imgSrc": "hamburguesas/texana_cropt.jpeg",
-          "description": "125gr de carne, queso suizo, tocino, aros de cebolla bañados en salsa BBQ, cebolla, jitomate y lechuga. Acompañada de 100gr de papas a la francesa.",
-          "price": "$109.00"
+          "description": "Carne Smash (125g), queso americano, mermelada de tocino, aderezo de ajo, cebolla, jitomate y lechuga.",
+          "price": "$115"
         },
         {
           "name": "Avocado",
           "imgSrc": "hamburguesas/avocado_cropt.jpeg",
-          "description": "125gr de carne, queso suizo, guacamole, totopos, cebolla, jitomate y lechuga. Acompañada de 100gr de papas a la francesa.",
-          "price": "$109.00"
+          "description": "Carne Smash (125g), queso suizo, guacamole, totopos, cebolla, jitomate y lechuga.",
+          "price": "$115"
         },
         {
           "name": "Honolulu",
           "imgSrc": "hamburguesas/honolulu_cropt.jpeg",
-          "description": "125gr de carne, queso suizo, cebolla caramelizada, piña, tocineta, cebolla, jitomate y lechuga. Acompañada de 100gr de papas a la francesa.",
-          "price": "$109.00"
+          "description": "Carne Smash (125g), queso suizo, cebolla caramelizada, piña, tocineta, cebolla, jitomate y lechuga.",
+          "price": "$115"
+        },
+        {
+          "name": "Texana",
+          "imgSrc": "hamburguesas/texana_cropt.jpeg",
+          "description": " Carne Smash (125g), queso suizo, aros de cebolla bañados en salsa BBQ, tocino ,cebolla, jitomate y lechuga.",
+          "price": "$115"
         },
         {
           "name": "Cheese",
           "imgSrc": "hamburguesas/cheese_cropt.jpeg",
-          "description": "125gr de carne, queso tipo americano amarillo, queso mozzarella cubierta de panko, cebolla, jitomate y lechuga. Acompañada de 100gr de papas a la francesa.",
-          "price": "$109.00"
+          "description": "Carne Smash (125g), queso americano, queso mozzarella cubierto de panko, cebolla, jitomate y lechuga.",
+          "price": "$115"
         },
         {
           "name": "3 quesos",
           "imgSrc": "hamburguesas/3_quesos_cropt.jpeg",
-          "description": "125gr de carne, queso gouda, queso suizo, queso mozzarella, tocino, cebolla, jitomate y lechuga. Acompañada de 100gr de papas a la francesa.",
-          "price": "$109.00"
+          "description": "Carne Smash (250g), queso gouda, queso suizo, queso Monterrey Jack, tocino, cebolla, jitomate y lechuga.",
+          "price": "$115"
         },
         {
           "name": "Pollo crispy",
           "imgSrc": "test-image.jpeg",
-          "description": "140gr de pollo tender, queso americano amarillo, tocino, cebolla, jitomate y lechuga. Acompañada de 100gr de papas a la francesa.",
-          "price": "$99.00"
+          "description": "Pollo Tender (140g), queso americano, tocino, cebolla, jitomate y lechuga.",
+          "price": "$99"
         },
         {
           "name": "Buffalo chicken",
           "imgSrc": "hamburguesas/bufalo.jpeg",
-          "description": "140gr de pollo tender bañado en salsa bufalo, queso suizo, cebolla, jitomate y lechuga. Acompañada de 100gr de papas a la francesa",
-          "price": "$99.00"
+          "description": "Pollo Tender (140g) bañado en salsa búfalo, queso suizo, tocino, cebolla, jitomate y lechuga.",
+          "price": "$99"
         }
       ],
       "footerConfig": {
         "text": "Todos nuestras hamburguesas  se acompañan con papas a las francesa (100g)",
         "images": [
           "assets/CaliforniaDoble.png",
-          "assets/Honolulu.png",
-          "assets/Texana.png"
+          "assets/Texana.png",
+          "assets/Honolulu.png"
         ]
       }
     },
@@ -171,87 +157,149 @@
         {
           "name": "Papas a la francesa",
           "imgSrc": "hamburguesas/bufalo.jpeg",
-          "description": "220 gramos.",
-          "price": "$30.00"
+          "description": "220 gramos de papas.",
+          "price": "$30"
         },
         {
           "name": "Papas a gajo",
           "imgSrc": "hamburguesas/bufalo.jpeg",
-          "description": "220 gramos.",
-          "price": "$40.00"
+          "description": "220 gramos de papas gajo.",
+          "price": "$40"
         },
         {
           "name": "Camote Francesa",
           "imgSrc": "hamburguesas/bufalo.jpeg",
-          "description": "220 gramos",
-          "price": "$50.00"
+          "description": "220 gramos de camote corte francesa.",
+          "price": "$50"
         },
         {
           "name": "Aros de cebolla",
           "imgSrc": "hamburguesas/bufalo.jpeg",
-          "description": "10 piezas",
-          "price": "$60.00"
+          "description": "10 piezas.",
+          "price": "$60"
         },
         {
           "name": "Papas especiales",
           "imgSrc": "hamburguesas/bufalo.jpeg",
           "description": "220 gramos de papa a la francesa, chorizo, tocino, fritura de tocino con aderezo ranch.",
-          "price": "$60.00"
-        },
-        {
-          "name": "Winnie fries",
-          "imgSrc": "hamburguesas/bufalo.jpeg",
-          "description": "200 gramos de papa a la francesa y 220 gramos de salchicha Frankfurt.",
-          "price": "70.00"
+          "price": "$60"
         },
         {
           "name": "Classic fries",
           "imgSrc": "hamburguesas/bufalo.jpeg",
-          "description": "220 gramos de papa a la francesa, queso tipo americano amarillo y tocino.",
-          "price": "$70.00"
+          "description": "220g de papa a la francesa, queso tipo americano y un topping de tocino.",
+          "price": "$60"
         },
         {
           "name": "Parmesano fries",
           "imgSrc": "hamburguesas/bufalo.jpeg",
           "description": "220 gramos de papa a la francesa, queso parmezano y topping de perejil deshidratado.",
-          "price": "$50.00"
-        },
-        {
-          "name": "Style fries",
-          "imgSrc": "hamburguesas/bufalo.jpeg",
-          "description": "220 gramos de papa a la francesa, queso amarillo, mermelada de tocino y aderezo de ajo.",
-          "price": "$60.00"
-        },
-        {
-          "name": "Takis fries",
-          "imgSrc": "hamburguesas/bufalo.jpeg",
-          "description": "220 gramos de papa a la francesa, takis fuego, aderecho de chipotle y queso amarillo.",
-          "price": "$60.00"
+          "price": "$50"
         },
         {
           "name": "Munchies fries",
           "imgSrc": "hamburguesas/bufalo.jpeg",
           "description": "220 gramos de papa a la francesa, cebolla caramelizada, tocino, queso amarillo y aderezo de la casa.",
-          "price": "$60.00"
+          "price": "$60"
         },
         {
-          "name": "Cheese pop",
+          "name": "Winie fries",
           "imgSrc": "hamburguesas/bufalo.jpeg",
-          "description": "4 piezas. 4 bolitas de queso mozzarella.",
-          "price": "$45.00"
+          "description": "200 gramos de papa a la francesa y 220 gramos de salchicha Frankfurt.",
+          "price": "70"
+        },
+        {
+          "name": "Style fries",
+          "imgSrc": "hamburguesas/bufalo.jpeg",
+          "description": "220 gramos de papa a la francesa, queso amarillo, mermelada de tocino y aderezo de ajo.",
+          "price": "$60"
+        },
+        {
+          "name": "Takis fries",
+          "imgSrc": "hamburguesas/bufalo.jpeg",
+          "description": "220 gramos de papa a la francesa, takis fuego, aderecho de chipotle y queso amarillo.",
+          "price": "$60"
         },
         {
           "name": "Dogo Coreano",
           "imgSrc": "hamburguesas/bufalo.jpeg",
-          "description": "Dogo relleno de queso mozarella, salchicha o combinado.",
-          "price": "$49.00"
+          "description": "Dogo relleno de queso mozzarella, salchicha o combinado. La cubierta a elegir son: natural, Flamin Hot o papas.",
+          "price": "$49"
+        },
+        {
+          "name": "Cheese pop",
+          "imgSrc": "hamburguesas/bufalo.jpeg",
+          "description": "4 piezas de bolitas rellenas de queso mozarella.",
+          "price": "$45"
         }
       ],
       "footerConfig": {
         "text": "Cambia tus papas por Gajo o Camote con un costo extra.",
         "images": [
-          "assets/ClassicFries.png",
           "assets/Dogocoreano.png",
+          "assets/ClassicFries.png",
+          "assets/MunchiesFries.png"
+        ]
+      }
+    },
+    {
+      "name": "Salchichas",
+      "platillos": [
+        {
+          "name": "Frankfurt",
+          "description": "80% res y 20% cerdo.",
+          "price": "$25"
+        },
+        {
+          "name": "Bratwurst",
+          "description": "50% cordero y 50% cerdo.",
+          "price": "$25 $55"
+        },
+        {
+          "name": "Polaca",
+          "description": "Carne de cerdo con un ligero toque de ajo y especias.",
+          "price": "$45"
+        },
+        {
+          "name": "Pavo",
+          "price": "$45"
+        }
+      ],
+      "footerConfig": {
+        "text": "",
+        "images": [
+          "assets/Dogocoreano.png",
+          "assets/ClassicFries.png",
+          "assets/MunchiesFries.png"
+        ]
+      }
+    },
+    {
+      "name": "Bebidas",
+      "platillos": [
+        {
+          "name": "Refrescos",
+          "description": "Coca, Sangria, Tonicol, Seven Up, Mirinda, Manzanita, Coca Ligth, Agua Mineral.",
+          "price": "$25"
+        },
+        {
+          "name": "Boing",
+          "price": "$20"
+        },
+        {
+          "name": "Agua Natural",
+          "price": "$15"
+        },
+        {
+          "name": "Chaparritas",
+          "price": "$15"
+        }
+      ],
+      "footerConfig": {
+        "text": "",
+        "images": [
+          "assets/Dogocoreano.png",
+          "assets/ClassicFries.png",
           "assets/MunchiesFries.png"
         ]
       }
