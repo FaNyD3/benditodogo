@@ -29,7 +29,7 @@ export default function MenuContent({
         if (entry.isIntersecting) {
           handleSetSection(entry.target.innerText);
           const footerText = menuData.sections.find(
-            (s: any) => s.name == entry.target.innerText
+            (s: any) => s.name === entry.target.innerText
           )?.footerConfig?.text;
           handleFooterText(footerText);
         }
@@ -64,7 +64,10 @@ export default function MenuContent({
             className={classes.title}>
             {section.name}
           </h2>
-          <img className={classes.menuImage} src={menuImage}></img>    
+          <img className={classes.menuImageSection} src={menuImage}></img>
+          <br />
+          <br />
+          <br />
           {section.platillos.map((platillo: any) => (
             <Platillo {...platillo} />
           ))}
@@ -73,9 +76,6 @@ export default function MenuContent({
             console.log(src);
             return <img key={imgIndex} src={src} className={classes.menuImage} alt="src" />;
           })}
-          <br />
-          <br />
-          <br />
           <br />
           <br />
         </>
