@@ -7,40 +7,13 @@ import Admiracion from "./assets/admiracion.png";
 
 function App() {
   const classes = useStyles({});
-  const [section, setSection] = useState("");
-  const [footerText, setFooterText] = useState("");
   return (
     <>
       <Grid container className={classes.mainContainer}>
-        {/* <header
-          style={section.length > 0 ? { display: "flex" } : { display: "none" }}
-          className={classes.header}>
-          <img className={classes.menuImage} src={menuImage} alt=''></img>
-          <p className={classes.sectionName}>{section}</p>
-        </header> */}
         <Grid container className={classes.menuContainer}>
           <MenuMainPage></MenuMainPage>
-          <MenuContent
-            handleSetSection={setSection}
-            handleFooterText={setFooterText}></MenuContent>
+          <MenuContent></MenuContent>
         </Grid>
-        <footer
-          style={
-            footerText.length > 0 ? { display: "flex" } : { display: "none" }
-          }
-          className={classes.footer}>
-          <Grid container className={classes.footerContainer}>
-            <Grid item xs={1}>
-              <img className={classes.admiracionOpen} src={Admiracion} alt=''></img>
-            </Grid>
-            <Grid item xs={10}>
-              <p className={classes.footerText}>{footerText}</p>
-            </Grid>
-            <Grid item xs={1}>
-              <img className={classes.admiracionclose} src={Admiracion} alt=''></img>
-            </Grid>
-          </Grid>
-        </footer>
       </Grid>
     </>
   );

@@ -71,7 +71,7 @@
         }
       ],
       "footerConfig": {
-        "text": "Todos nuestros dogos se acompañan con papa  dorada.",
+        "text": "Todos nuestros dogos se acompañan \n con papa  dorada.",
         "images": [
           "assets/Pizza.png",
           "assets/Kansas.png"
@@ -143,7 +143,7 @@
         }
       ],
       "footerConfig": {
-        "text": "Todos nuestras hamburguesas  se acompañan con papas a las francesa (100g)",
+        "text": "Todas nuestras hamburguesas se acompañan \n con papas a las francesa (100g)",
         "images": [
           "assets/CaliforniaDoble.png",
           "assets/Texana.png",
