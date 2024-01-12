@@ -12,12 +12,11 @@ const useStyles = makeStyles((theme: Theme) => ({
     background: `linear-gradient(${calculateSkewAngle()}deg, rgba(252,80,4,1)  50%, rgba(255,255,255,1) 50%)`,
   },
   logo: {
-    marginTop: "10vh",
-    width: "60%",
+    marginTop: "0",
+    width: "30%",
     marginBottom: "5vh",
   },
   bienvenidosText: {
-    marginTop: "10vh",
     fontFamily: "Titles",
     fontSize: "calc(1em + 7vw)",
   },

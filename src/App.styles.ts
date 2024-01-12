@@ -1,7 +1,6 @@
 import { Theme } from "@mui/material/styles";
 import { makeStyles } from "@material-ui/core/styles";
-import headerImage from "./assets/Header.png";
-import footerImage from "./assets/Footer.png";
+import backgroundImage from './assets/background.jpg';
 
 const useStyles = makeStyles((theme: Theme) => ({
   mainContainer: {
@@ -12,6 +11,73 @@ const useStyles = makeStyles((theme: Theme) => ({
     overflow: "scroll",
     overflowX: "hidden",
     height: "100dvh",
+  },
+  footer: {
+    display: "flex",
+    justifyContent: "center",
+    width: "100%",
+  },
+  container: {
+    fontFamily: "Titles",
+    width: "100%",
+    display: "grid",
+    gap: 0,
+    maxHeight: "200px",
+    gridTemplateColumns: "33% 34% 33%",
+    gridTemplateRows: "1fr 1fr 1fr",
+    gridTemplateAreas: `
+    'Void Redes Contacto'
+    'Logo Face Whatsapp'
+    'Logo Insta Domicilio'`,
+    backgroundImage: `url(${backgroundImage})`,
+  },
+  Void: { 
+    gridArea: "Void"
+  },
+  Redes: {
+    gridArea: "Redes",
+    fontFamily: "Titles",
+    fontSize: "1.5rem",
+    textAlign: "center"
+  },
+  Contacto: {
+    gridArea: "Contacto",
+    fontFamily: "Titles",
+    fontSize: "1.5rem",
+    textAlign: "left"
+  },
+  Logo: {
+    gridArea: "Logo",
+    paddingLeft: "1rem",
+    paddingBottom: "1rem",
+    paddingTop: "1.5rem",
+    backgroundColor: "#ddd9d1"
+  },
+  Face: {
+    fontFamily: 'arial',
+    gridArea: "Face",
+    backgroundColor: "#ddd9d1",
+    padding: "1rem 0",
+  },
+  Insta: {
+    fontFamily: 'arial',
+    gridArea: "Insta",
+    backgroundColor: "#ddd9d1"
+  },
+  Whatsapp: {
+    gridArea: "Whatsapp",
+    backgroundColor: "#ddd9d1",
+    padding: "1rem 0",
+    fontFamily: 'arial',
+  },
+  Domicilio: {
+    fontSize: '0.75rem',
+    fontFamily: 'arial',
+    gridArea: "Domicilio",
+    backgroundColor: "#ddd9d1"
+  },
+  footerLogo: {
+    width: "100px",
   }
 }));
 

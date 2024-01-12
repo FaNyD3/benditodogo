@@ -30,7 +30,7 @@ const useStyles = makeStyles((theme: Theme) => ({
     alignItems: "center",
     justifyContent: "center",
     margin: "auto",
-    maxWidth: "400px"
+    maxWidth: "410px"
   },
   admiracionOpen: {
     margin: "0, 20px, 0, 20px",
@@ -38,7 +38,8 @@ const useStyles = makeStyles((theme: Theme) => ({
   },
   footerTex: {
     margin: 0,
-    fontSize: "0.85rem"
+    fontSize: "1.1rem",
+    fontWeight: 600
   },
   admiracionclose: {
     margin: "0, 20px, 0, 20px",

@@ -1,7 +1,7 @@
 import Grid from "@mui/material/Grid";
 import useStyles from "./menuMainPage.styles";
 import logo from '../../assets/BenditodogoLogo.png';
-import menuImage from "../../assets/image.png";
+import menuImage from "../../assets/menu-big.png";
 
 export default function MenuMainPage() {
   const classes = useStyles({});
@@ -9,7 +9,6 @@ export default function MenuMainPage() {
     <>
       <div className={classes.container}>
         <img className={classes.logo} src={logo}></img>
-        <p className={classes.bienvenidosText}>!Bienvenidos!</p>
         <img className={classes.menuTitle} src={menuImage}></img>
       </div>
     </>
