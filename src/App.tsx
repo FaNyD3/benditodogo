@@ -8,6 +8,7 @@ import instagramLogo from './assets/icons/instagram.svg';
 import whatsappLogo from './assets/icons/whatsapp.svg';
 import mapPin from './assets/icons/map-pin.svg';
 
+
 function App() {
   const classes = useStyles({});
   return (

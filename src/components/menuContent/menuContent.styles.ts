@@ -7,7 +7,6 @@ const useStyles = makeStyles((theme: Theme) => ({
     alignContent: "center",
     textAlign: "center",
     width: "100%",
-    backgroundImage: `url(${backgroundImage})`
   },
   title: {
     fontFamily: "Titles",

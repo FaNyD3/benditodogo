@@ -4,6 +4,7 @@ import backgroundImage from './assets/background.jpg';
 
 const useStyles = makeStyles((theme: Theme) => ({
   mainContainer: {
+    backgroundImage: `url(${backgroundImage})`,
     height: "100dvh",
     position: "fixed",
   },
@@ -25,11 +26,20 @@ const useStyles = makeStyles((theme: Theme) => ({
     maxHeight: "200px",
     gridTemplateColumns: "33% 34% 33%",
     gridTemplateRows: "1fr 1fr 1fr",
+    '@media(max-width: 373px)' : {
+      gridTemplateColumns: "40% 60%",
+      gridTemplateRows: "1fr 1fr 1fr 1fr 1fr",
+      gridTemplateAreas: `
+      'Void Redes'
+      'Logo Whatsapp'
+      'Logo Insta  '
+      'Logo Face '
+      'Logo Domicilio'`,
+    },
     gridTemplateAreas: `
     'Void Redes Contacto'
     'Logo Face Whatsapp'
     'Logo Insta Domicilio'`,
-    backgroundImage: `url(${backgroundImage})`,
   },
   Void: { 
     gridArea: "Void"

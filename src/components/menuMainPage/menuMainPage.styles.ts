@@ -1,28 +1,37 @@
 import { Theme } from "@mui/material/styles";
 import { makeStyles } from "@material-ui/core/styles";
+import planet from "../../assets/planeta.png";
 
 const useStyles = makeStyles((theme: Theme) => ({
   container: {
-    marginTop: "6vh",
     justifyContent: "center",
     alignContent: "center",
     textAlign: "center",
     width: "100%",
     height: "100vh",
-    background: `linear-gradient(${calculateSkewAngle()}deg, rgba(252,80,4,1)  50%, rgba(255,255,255,1) 50%)`,
+    backgroundImage: `url(${planet})`,
+    backgroundRepeat: "no-repeat",
+    backgroundPosition: "-340px 450px",
+    overflow: "visible",
   },
   logo: {
-    marginTop: "0",
-    width: "30%",
-    marginBottom: "5vh",
-  },
-  bienvenidosText: {
-    fontFamily: "Titles",
-    fontSize: "calc(1em + 7vw)",
+    marginTop: "6vh",
+    width: "60%",
+    marginBottom: "7vh",
   },
   menuTitle: {
-    width: "85%",
+    marginTop: "7vh",
+    width: "90%",
+    position: "relative",
+    zIndex: 3,
   },
+  planet: {
+    position: "relative",
+    width: "100%",
+    left: "-50%",
+    top: "-8%",
+    zIndex: 2,
+  }
 }));
 export default useStyles;
 
