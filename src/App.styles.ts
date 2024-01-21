@@ -19,7 +19,7 @@ const useStyles = makeStyles((theme: Theme) => ({
     width: "100%",
   },
   container: {
-    fontFamily: "Titles, arial",
+    fontFamily: "Titles",
     width: "100%",
     display: "grid",
     gap: 0,
@@ -46,13 +46,13 @@ const useStyles = makeStyles((theme: Theme) => ({
   },
   Redes: {
     gridArea: "Redes",
-    fontFamily: "Titles, arial",
+    fontFamily: "Titles",
     fontSize: "1.5rem",
     textAlign: "center"
   },
   Contacto: {
     gridArea: "Contacto",
-    fontFamily: "Titles, arial",
+    fontFamily: "Titles",
     fontSize: "1.5rem",
     textAlign: "left"
   },
@@ -64,14 +64,14 @@ const useStyles = makeStyles((theme: Theme) => ({
     backgroundColor: "#ddd9d1"
   },
   Face: {
-    fontFamily: "Titles, arial",
+    fontFamily: "Titles",
     gridArea: "Face",
     backgroundColor: "#ddd9d1",
     padding: "1rem 0",
     textDecoration: 'none',
   },
   Insta: {
-    fontFamily: "Titles, arial",
+    fontFamily: "Titles",
     gridArea: "Insta",
     backgroundColor: "#ddd9d1",
     textDecoration: 'none',
@@ -80,18 +80,17 @@ const useStyles = makeStyles((theme: Theme) => ({
     gridArea: "Whatsapp",
     backgroundColor: "#ddd9d1",
     padding: "1rem 0",
-    fontFamily: "Titles, arial",
+    fontFamily: "Titles",
     textDecoration: 'none',
   },
   Domicilio: {
     fontSize: '0.75rem',
-    fontFamily: "Titles, arial",
+    fontFamily: "Titles",
     gridArea: "Domicilio",
     backgroundColor: "#ddd9d1"
   },
   text: {
     textDecoration: "none",
-    color: "black !important",
     fontSize: "0.9rem !important"
   },
   footerLogo: {
