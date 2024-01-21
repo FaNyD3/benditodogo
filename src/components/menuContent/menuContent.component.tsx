@@ -37,10 +37,14 @@ export default function MenuContent() {
           {section.platillos.map((platillo: any) => (
             <Platillo {...platillo} />
           ))}
-          {section.footerConfig.images.map((image, imgIndex) => {
-            const src = `../../${image}`;
-            return <img key={imgIndex} src={src} className={classes.menuImage} alt="src" />;
-          })}
+          {(section.name !== "Salchichas" && section.name !== "Bebidas") && (
+            <div>
+              {section.footerConfig.images.map((image, imgIndex) => {
+                const src = `../../${image}`;
+                return <img key={imgIndex} src={src} className={classes.menuImage} alt={src} />;
+              })}
+            </div>
+          )}
           <br />
           <br />
           {!!section.footerConfig.text.length && <footer>
