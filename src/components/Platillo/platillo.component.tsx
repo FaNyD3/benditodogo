@@ -8,7 +8,7 @@ export const PlatilloPosition = {
 
 interface Props {
   name: string;
-  imgSrc: string;
+  imgSrc?: string;
   description: string;
   price: string;
 }
