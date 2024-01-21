@@ -206,7 +206,7 @@
           "name": "Winie fries",
           "imgSrc": "hamburguesas/bufalo.jpeg",
           "description": "200 gramos de papa a la francesa y 220 gramos de salchicha Frankfurt.",
-          "price": "70"
+          "price": "$70"
         },
         {
           "name": "Style fries",
@@ -279,12 +279,8 @@
       "platillos": [
         {
           "name": "Refrescos",
-          "description": "Coca, Sangria, Tonicol, Seven Up, Mirinda, Manzanita, Coca Ligth, Agua Mineral.",
+          "description": "Coca, Sangria, Tonicol, Seven Up, Mirinda, Manzanita, Coca Light, Agua Mineral, Boing, Cerveza de Raiz.",
           "price": "$25"
-        },
-        {
-          "name": "Boing",
-          "price": "$20"
         },
         {
           "name": "Agua Natural",
@@ -298,7 +294,7 @@
       "footerConfig": {
         "text": "",
         "images": [
-          "assets/Dogocoreano.png",
+          "assets/",
           "assets/ClassicFries.png",
           "assets/MunchiesFries.png"
         ]
