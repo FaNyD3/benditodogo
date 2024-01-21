@@ -73,6 +73,8 @@
       "footerConfig": {
         "text": "Todos nuestros dogos se acompañan \n con papa  dorada.",
         "images": [
+          "assets/Carnivoro.png",
+          "assets/Texas.png",
           "assets/Pizza.png",
           "assets/Kansas.png"
         ]
