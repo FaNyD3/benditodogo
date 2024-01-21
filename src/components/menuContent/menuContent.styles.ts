@@ -9,7 +9,7 @@ const useStyles = makeStyles((theme: Theme) => ({
     width: "100%",
   },
   title: {
-    fontFamily: "Titles, arial",
+    fontFamily: "Titles",
     fontSize: "calc(1em + 8vw)",
     textAlign: "center",
     margin: "20px auto 10px 15px",
