@@ -20,6 +20,7 @@ const useStyles = makeStyles((theme: Theme) => ({
   },
   menuImage: {
     width: "40vw",
+    height: "40vw",
     position: "relative",
     top: "0vh",
     left: "0vw",
