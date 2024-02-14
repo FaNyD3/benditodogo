@@ -14,8 +14,8 @@ const useStyles = makeStyles((theme: Theme) => ({
     color: "#fe5208",
   },
   description: {
-    fontWeight: 600,
-    fontFamily: "Descriptions",
+    fontWeight: 400,
+    fontFamily: "Titles",
     textAlign: "justify",
     fontSize: "20px",
   },

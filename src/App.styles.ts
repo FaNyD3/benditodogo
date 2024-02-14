@@ -64,30 +64,37 @@ const useStyles = makeStyles((theme: Theme) => ({
     backgroundColor: "#ddd9d1"
   },
   Face: {
-    fontFamily: 'arial',
+    fontFamily: "Titles",
     gridArea: "Face",
     backgroundColor: "#ddd9d1",
     padding: "1rem 0",
+    textDecoration: 'none',
   },
   Insta: {
-    fontFamily: 'arial',
+    fontFamily: "Titles",
     gridArea: "Insta",
-    backgroundColor: "#ddd9d1"
+    backgroundColor: "#ddd9d1",
+    textDecoration: 'none',
   },
   Whatsapp: {
     gridArea: "Whatsapp",
     backgroundColor: "#ddd9d1",
     padding: "1rem 0",
-    fontFamily: 'arial',
+    fontFamily: "Titles",
+    textDecoration: 'none',
   },
   Domicilio: {
     fontSize: '0.75rem',
-    fontFamily: 'arial',
+    fontFamily: "Titles",
     gridArea: "Domicilio",
     backgroundColor: "#ddd9d1"
   },
+  text: {
+    textDecoration: "none",
+    fontSize: "0.9rem !important"
+  },
   footerLogo: {
-    width: "100px",
+    width: "100px"
   }
 }));
 
