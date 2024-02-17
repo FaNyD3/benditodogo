@@ -25,12 +25,12 @@ function App() {
             </div>
             <div className={classes.Face}>
             <a className={classes.text} href="https://www.facebook.com/profile.php?id=100063644673026&mibextid=LQQJ4d">
-              <img src={facebookLogo} alt="facebook" /> bendito_dogo
+              <img src={facebookLogo} alt="facebook" /> bendito dogo
             </a>
             </div>
             <div className={classes.Insta}>
             <a className={classes.text} href="https://www.instagram.com/bendito_dogo?igsh=MWJlemUzZDloZGN2cA==">
-              <img src={instagramLogo} alt="instagram" /> bendito_dogo
+              <img src={instagramLogo} alt="instagram" /> bendito dogo
             </a>
             </div>
             <div className={classes.Whatsapp}>
